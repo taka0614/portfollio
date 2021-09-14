@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+@media (max-width: 1024px) {
+
+    .top-view {
+        background-position: center center;
+    }
+
+    .top-view h1 {
+        font-size: 40px;
+        padding: 100px 20px 80px 20px;
+    }
+
+    .top-view p {
+        font-size: 16px;
+    }
+
+    .contents-rank h2 {
+        font-size: 36px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #slide-show {
+        max-width: 700px;
+    }
+
+    #slide img {
+        width: 700px;
+    }
+
+    .search-text {
+        width: 200px;
+    }
+
+   .modal {
+       left: 25%;
+   }
+
+    .wine-rank {
+        width: 100%;
+    }
+
+    .wine-ranking {
+        position: absolute;
+        top: -15px;
+        left: 260px;
+    }
+
+    .format {
+        width: 95%;
+        padding: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .sns h2 {
+        font-size: 36px;
+    }
+
+    .sns h3 {
+        font-size: 20px;
+    }
+
+    .info li {
+        font-size: 12px;
+    }
+    
+}
+
+@media (max-width: 760px) {
+
+    * {
+        padding-left: 0 auto;
+        padding-right: 0 auto;
+    }
+
+    .logo {
+        margin-left: 5px;
+    }
+
+    header li {
+        display: none;
+    }
+
+    .modal {
+        width: 70%;
+        left: 15%;
+    }
+
+    .search {
+        display: none;
+    }
+
+    #menu-icon {
+        opacity: 1;
+        position: fixed;
+    }
+
+    header .bars-icon {
+        display: block;
+    }
+
+    .top-view {
+        background-position: center right;
+    }
+
+    .top-view h1 {
+        font-size: 20px;
+        padding: 100px 20px;
+    }
+
+    .top-view p {
+        font-size: 14px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .contents {
+        padding-top: 30px;
+    }
+
+    #slide-show {
+        max-width: 350px;
+    }
+
+    #slide img {
+        width: 350px;
+    }
+
+    .contents p {
+        margin-top: 30px;
+    }
+
+    .contents-rank h2 {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .contents-insert {
+        font-size: 18px;
+    }
+
+    .wine-rank {
+        width: 100%;
+    }
+
+    .contents-insert {
+        margin-top: 30px;
+    }
+
+    .wine-ranking {
+        position: absolute;
+        top: -15px;
+        left: 60px;
+    }
+
+    .format {
+        width: 100%;
+        padding: 10px;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
+    }
+
+    .sns {
+        background-position: top center;
+    }
+
+    .sns h2 {
+        font-size: 24px;
+        padding-bottom: 40px;
+    }
+
+    .sns h3 {
+        font-size: 16px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .btn {
+        width: 90%;
+        margin: 10px 3px;
+        display: inline-block;
+    }
+
+    .access p {
+        font-size: 8px;
+    }
+
+    footer h2 {
+        font-size: 18px;
+    }
+
+    .format h3 {
+        font-size: 16px;
+    }
+    
+
+    .format {
+        width: 90%;
+        padding: 10px;
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .pay {
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+
+    .format span {
+        font-size: 12px;
+    }
+
+    .format p {
+        font-size: 10px;
+    }
+
+    .info li {
+        font-size: 10px;
+        padding: 10px;
+    }
+    
+}

@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+.heading-text {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes  rotate {
+    0% {
+        transform: rotateY(360deg);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    animation: rotate 2s;
+}
+
+@media (max-width:768px) {
+
+    .profile {
+        display: block;
+    }
+
+    .profile-img {
+        width: 70%;
+        height: 70%;
+        margin: 0 0 30px 0;
+    }
+
+}

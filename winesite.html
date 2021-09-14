@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="winesite.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <title>mottox</title>
+</head>
+
+<body>
+    <header>
+        <a href="#"><img class="logo" src="img/ogp-image.jpg"></a>
+        <div class="login-modal-wrapper" id="login-modal">
+            <div class="modal">
+                <div class="fa fa-2x fa-times" id="close-modal"></div>
+                <div id="login-form">
+                    <h2>E-mail ログイン</h2>
+                    <form action="#">
+                        <input class="form-control" type="text" placeholder="メールアドレス">
+                        <input class="form-control" type="password" placeholder="パスワード">
+                        <input class="submit-btn" type="submit" value="ログイン">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#" class="heading login" id="login-show">Login</a></li>
+            <li><a href="#" class="heading cart">Cart</a></li>
+        </ul>
+            <form action="#">
+                <input class="search search-btn" type="submit" value="検索">
+                <input class="search search-text" type="text" placeholder="商品名を入力してください">
+            </form>
+            <div class="fa fa-2x fa-bars bars-icon"></div>
+    </header>
+    <main>
+        <div class="top-view">
+            <h1>Spending an elegant
+                <br>and<br>
+                blissful time
+            </h1>
+            <p>フランス・イタリア・スペインなど<br>
+                世界各国のワインをリーズナブルな値段で取り寄せております</p>
+                <h1 class="right-wrapper">with your loved ones</h1>
+            </div>
+        <div class="contents">
+            <div class="container">
+                <div id="slide-show">
+                    <ul id="slide">
+                        <li><a href="#"><img src="img/940_KO.jpg"></a></li>
+                        <li><a href="#"><img src="img/940_II.jpg"></a></li>
+                        <li><a href="#"><img src="img/940_CMP.jpg"></a></li>
+                        <li><a href="#"><img src="img/940_NN.jpg"></a></li>
+                        <li><a href="#"><img src="img/940_CB.jpg"></a></li>
+                        <li><a href="#"><img src="img/940_HX.jpg"></a></li>
+                        <li><a href="#"><img src="img/940_RW.jpg"></a></li>
+                    </ul>
+                    <div class="change-btn-wrapper">
+                        <div class="fa fa-2x fa-chevron-left change-btn" id="prev-btn"></div>
+                        <div class="fa fa-2x fa-chevron-right change-btn" id="next-btn"></div>
+                    </div>
+                </div>
+                <a href="#">
+                    <p class="contents-insert">ワイン特集・キャンペーン
+                        <span class="fa fa-angle-double-right"></span></p>
+                </a>
+            </div>
+        </div>
+        <div class="contents-rank">
+            <div class="container">
+                <h2>赤ワインRanking</h2>
+                <div class="wine-rank">
+                    <div class="wine-icon redwine-icon">
+                        <a href="#"><img src="img/BOURGOGNE ROUGE4620.jpg"></a>
+                        <p class="wine-ranking gold">No.1</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">ブルゴーニュ・ルージュ</p>
+                        <p class="english-title">BOURGOGNE ROUGE</p>
+                        <p>4,620円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon redwine-icon">
+                        <a href="#"><img src="img/ALTOS IBERICOS RESERVA3080.jpg"></a>
+                        <p class="wine-ranking shilver">No.2</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">アルトス・イベリコス・レゼルヴァ</p>
+                        <p class="english-title">ALTOS IBERICOS RESERVA</p>
+                        <p>3,080円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon redwine-icon">
+                        <a href="#"><img src="img/MOUTON CADET ROUGE CLASSIQUE2220.jpg"></a>
+                        <p class="wine-ranking">No.3</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">ムートン・カデ・ルージュ・クラシック</p>
+                        <p class="english-title">MOUTON CADET ROUGE CLASSIQUE</p>
+                        <p>2,220円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon redwine-icon">
+                        <a href="#"><img src="img/7920.jpg"></a>
+                        <p class="wine-ranking">No.4</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">マス・ラ・プラナ</p>
+                        <p class="english-title">MAS LA PLANA</p>
+                        <p>7,920円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon redwine-icon">
+                        <a href="#"><img src="img/ZINGARI2580.jpg"></a>
+                        <p class="wine-ranking">No.5</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">ジンガリ</p>
+                        <p class="english-title">ZINGARI</p>
+                        <p>2,580円(税込)</p>
+                    </div>
+                </div>
+                <p class="contents-insert">赤ワイン一覧へ
+                    <span class="fa fa-angle-double-right"></span>
+                </p>
+            </div>
+            <div class="container">
+                <h2>白ワインRanking</h2>
+                <div class="wine-rank whitewine-icon">
+                    <div class="wine-icon">
+                        <a href="#"><img src="img/ESCUDO ROJO RESERVE CHARDONNAY2090.jpg"></a>
+                        <p class="wine-ranking gold">No.1</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">エスクード・ロホ・レゼルヴ・シャルドネ</p>
+                        <p class="english-title">ESCUDO ROJO RESERVE CHARDONNAY</p>
+                        <p>2,090円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon whitewine-icon">
+                        <a href="#"><img src="img/MONTES ALPHA CHARDONNAY2420.jpg"></a>
+                        <p class="wine-ranking shilver">No.2</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">モンテス・アルファ・シャルドネ</p>
+                        <p class="english-title">MONTES ALPHA CHARDONNAY</p>
+                        <p>2,420円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon whitewine-icon">
+                        <a href="#"><img src="img/PAZO DAS BRUXAS2220.jpg"></a>
+                        <p class="wine-ranking">No.3</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">パソ・ダス・ブルーシャス</p>
+                        <p class="english-title">PAZO DAS BRUXAS</p>
+                        <p>2,220円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon whitewine-icon">
+                        <a href="#"><img src="img/VINTNER’S RESERVE CHARDONNAY3080.jpg"></a>
+                        <p class="wine-ranking">No.4</p>
+                    </div>
+                    <div class="wine-text">
+                        <p class="title">ヴィントナーズ・リザーヴ・シャルドネ</p>
+                        <p class="english-title">VINTNER’S RESERVE CHARDONNAY</p>
+                        <p>3,080円(税込)</p>
+                    </div>
+                </div>
+                <div class="wine-rank">
+                    <div class="wine-icon whitewine-icon">
+                        <a href="#"><img src="img/SANTA CRISTINA PINOT GRIGIO2530.jpg"></a>
+                        <p class="wine-ranking">No.5</p>
+                </div>
+                    <div class="wine-text">
+                        <p class="title">サンタ・クリスティーナ・ピノ・グリージョ</p>
+                        <p class="english-title">SANTA CRISTINA PINOT GRIGIO</p>
+                        <p>2,530円(税込)</p>
+                    </div>
+                </div>
+                <p class="contents-insert">白ワイン一覧へ
+                    <span class="fa fa-angle-double-right"></span>
+                </p>
+            </div>
+        </div>
+        <div class="sns">
+            <div class="container">
+                <div class="msg">
+                    <h2>SNS登録でお得情報GET!!</h2>
+                    <h3>ワインに関する最新情報・SALE情報をお送りします<br>希望するSNSを選んでご登録をお願い致します</h3>
+                </div>
+                <div class="access">
+                    <a href="#" class="btn facebook">
+                        <span class="fa fa-facebook"></span>
+                        Facebookで登録
+                    </a>
+                    <a href="#" class="btn line">
+                        <span class="fa fa-comment"></span>
+                        LINEで登録
+                    </a>
+                    <a href="#" class="btn twitter">
+                        <span class="fa fa-twitter"></span>
+                        Twitterで登録
+                    </a>
+                    <p>飲酒は20歳になってから。飲酒運転は法律で禁止されています。<br>
+                        妊娠中や授乳期の飲酒は、胎児・乳児の発育に悪影響を与えるおそれがあります。</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <h2>配送・送料 / お支払い方法</h2>
+            <div class="format delivery">
+                <br>
+                <h3 class="format-contents fa fa-truck">配送・送料</h3><br>
+                <p><span>通常送料500円（税抜)</span>※沖縄県、離島は別料金、その他は一律です。</p>
+                <p>ワイン5本以上、または<span>1万円以上で送料無料</span>となります。</p><br>
+                <p>クール配送は<span>全品200円（税抜)</span>で承っております。<br>また、夏季はワインのコンディションを保つため全便クール便となります。</li><br>
+                <p>通常平日午前10：00までのご注文で当日発送が可能です。<br>※定期コースは所定の配送日となります。</li><p>
+                <p>土日祝日、夏季、冬季休業中は配送をお休みさせて戴いております。<br>夏季、冬季休業の日程は別途ご案内となります。</li><p>
+                <p>セット、定期コースは送料込み価格です。<br>セットと合わせ買いの単品にも追加送料はかかりません。</li><p>
+            </div>
+            <div class="format pay">
+                <br>
+                <h3 class="format-contents fa fa-credit-card">お支払い方法</h3>
+                <p>クレジットカード決済</p>
+                <img src="img/pay_jcb.png">
+                <img src="img/pay_visa.png">
+                <img src="img/pay_master.png">
+                <img src="img/pay_amex.png">
+                <img src="img/pay_diners.png"><br>
+                <p>各種クレジットカードが、ご利用できます。</p><br>
+                <p>コンビニエンスストア決済</p>
+                <img class="CVS-icon"src="img/pay_seven.png">
+                <img class="CVS-icon" src="img/pay_lawson.png">
+                <img class="CVS-icon"src="img/pay_familymart.png">
+                <img class="CVS-icon"src="img/pay_seicomart.png">
+                <p>※お電話でのご注文の場合は、代金引換でのみ承ります。</p>
+                <p>※各決済の詳細はご利用ガイドよりご確認ください。</p>
+            </div>
+            <div class="info">
+                <ul>
+                    <li><a href="#">お問い合わせ</a></li>
+                    <li><a href="#">ご利用ガイド</a></li>
+                    <li><a href="#">利用規約</a></li>
+                    <li><a href="#">特定商取引法に基ずく表記</a></li>
+                    <li><a href="#">会社概要</a></li>
+                    <li><a href="#">プライバシーポリシー</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="winesite.js"></script>
+</body>
+</html>

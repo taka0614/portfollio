@@ -1,0 +1,427 @@
+@charset "UTF-8";
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+  }
+
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1500px;
+    text-align: center;
+}
+
+.login-modal-wrapper {
+    background-color: rgba(0, 0, 0, .7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    display: none;
+    
+  }
+  
+.modal {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    padding: 20px 0 40px;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 38%;
+  }
+
+.fa-times {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: rgba(128, 128, 128, .5);
+    cursor: pointer;
+}
+
+.fa-times:hover {
+    color: rgba(0, 0, 0, .7)
+}
+
+
+#login-form h2 {
+    color: #5f5d60;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+#login-form input {
+    font-size: 12px;
+    border: 1px solid #d0d5d8;
+    border-radius: 5px;
+    width: 70%;
+    margin-right: 15%;
+    margin-bottom: 20px;
+}
+  
+.submit-btn {
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: .7;
+}
+
+header img {
+    width: 124px;
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.heading {
+    color: #000;
+    background-color: #fff;
+    line-height: 70px;
+    opacity: .7;
+    padding: 23px;
+}
+
+input {
+    height: 35px;
+    float: right;
+    margin: 18px 0;
+}
+
+.search-text {
+    width: 300px;
+}
+
+.search-btn {
+    width: 80px;
+    margin-right: 30px;
+}
+
+.cart {
+    padding: 23px 29px;
+}
+
+.login {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+header a:hover {
+    color: #fff;
+    background-color: #000;
+    opacity: 1;
+    transition: all .5s;
+}
+
+header li {
+    float: right;
+}
+
+header .bars-icon {
+    color: #fff;
+    font-size: 1.5rem;
+    float: right;
+    margin: 20px 20px;
+    display: none;
+}
+
+.top-view {
+    background-image: url("img/main.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.top-view h1 {
+    font-size: 70px;
+    font-family: 'Tangerine', cursive;
+    letter-spacing: 8px;
+    opacity: .7;
+    padding: 100px 0px 80px 80px;
+    text-align: left;
+}
+
+.top-view p {
+    font-size: 24px;
+    letter-spacing: 5px;
+    text-align: center;
+    opacity: .7;
+}
+
+.top-view .right-wrapper {
+    padding-right: 20px;
+    text-align: right;
+}
+
+.contents {
+    background-color: #fdede4;
+    padding-top: 200px;
+    margin-top: 50px;
+}
+
+#slide-show {
+    width: 100%;
+    max-width: 940px;
+    overflow: hidden;
+    position: relative;
+}
+
+#slide {
+    padding-inline-start: 0;
+    width: 10000px;
+}
+
+#slide li {
+    box-sizing: border-box;
+    float: left;
+}
+
+.change-btn {
+    color: #1f1f1f;
+    background-color: #e0e0e0;
+    padding: 2px;
+    position: absolute;
+    top: 40%;
+    opacity: .3;
+}
+
+.change-btn:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 1%;
+}
+
+#next-btn {
+    right: 1%;
+}
+
+.contents img:hover {
+    opacity: .8;
+}
+
+.contents-insert {
+    color: #fff;
+    font-size: 36px;
+    font-family: serif;
+    background-color: #000;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin-bottom: 100px;
+    margin-top: 150px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.contents-insert:hover {
+    opacity: .6;
+}
+
+.contents-rank {
+    margin-bottom: 100px;
+}
+
+.contents-rank h2 {
+    font-size: 40px;
+    padding: 80px 0px 20px 0px;
+    border-bottom:  2px solid #000;
+    text-align: left;
+    text-shadow: 5px 5px #cccccc;
+}
+
+.wine-rank {
+    float: left;
+    margin-top: 50px;
+    position: relative;
+}
+
+.wine-icon {
+    margin: 5px;
+}
+
+
+.wine-icon img {
+    border: 2px solid #000;
+    padding: 17px;
+}
+
+.wine-ranking {
+    background-color: #fff;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+
+.gold {
+    color: #ffd700;
+}
+
+.shilver {
+    color: #C0C0C0;
+}
+
+.wine-icon:hover {
+    opacity: .8;
+}
+
+.redwine-icon img:hover {
+    border: 2px solid #941f57;
+}
+
+.whitewine-icon img:hover {
+    border: 2px solid  #cccccc;
+}
+
+
+.title {
+    font-size: 15px;
+}
+
+.english-title {
+    font-size: 12px;
+    color: #bbbbbb;
+}
+
+.sns {
+    background-image: url("img/442_F8.jpg");
+    background-size: cover;
+    background-color:rgba(255,255,255,0.6);
+    background-blend-mode:lighten;
+    margin-bottom: 60px;
+}
+
+.sns h2 {
+    font-size: 45px;
+    font-family: serif;
+    letter-spacing: 10px;
+    padding: 130px 0px 100px 0px;
+}
+
+.sns h3 {
+    font-size: 24px;
+    font-family: serif;
+    letter-spacing: 10px;
+    margin-bottom: 80px;
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 12px 24px;
+    opacity: .7;
+    color: #fff;
+    margin-top: 30px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 20px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+
+.line {
+    background-color: #00B900;
+    margin-right: 20px;
+}
+
+.access p {
+    padding: 50px 0;
+}
+
+footer {
+    background-color: #cccccc;
+    display: inline-block;
+    width: 100%;
+}
+
+footer h2 {
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 20px;
+}
+
+.format {
+    background-color: #fff;
+    width: 45%;
+    margin: 20px 0 20px 0;
+}
+
+.format h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.format p {
+    padding-bottom: 10px;
+}
+
+.format span {
+    color: #ff0000;
+    font-size: 20px;
+}
+
+.format img {
+    margin: 5px;
+}
+
+.delivery {
+    float: left;
+}
+
+.pay {
+    float: right;
+}
+
+.info ul {
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.info li {
+    float: left;
+    padding: 10px 20px 20px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info a {
+    color: #000;
+}
+
+.info li:hover {
+text-decoration: underline;
+}
+
